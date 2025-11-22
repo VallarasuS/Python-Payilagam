@@ -1,12 +1,10 @@
 
 # print is a function, that writes given data to output device
 
-print("Hello there!")
+age = 32;
+PI = 3.14
 
-name = None
-age = None
-phone = None
-education = None
+print("Hello there!")
 
 name = input("enter your name: ")
 print("Hello " + name + ". Nice to meet you.")
@@ -18,4 +16,20 @@ phone = input("enter your phone: ")
 print("Your phone number is: " + phone)
 
 education = input("enter your education: ")
-print("Your education number is: " + education)
+print("Your education is: " + education)
+
+# Function
+# def FUNCTION_NAME:
+#   EXPRESSION / STATEMENT
+
+# def read_write():
+#     age = input("enter your age: ")
+#     print("Your age is: " + age)
+
+# read_write()
+
+def read_write(field):
+    data = input("enter your " + field + ": ")
+    print("Your " + field + " is: " + data)
+
+read_write("age")
