@@ -2,9 +2,10 @@
 # print is a function, that writes given data to output device
 
 age = 32;
-PI = 3.14
+PI = 3.14;
+hello = "Hello there!";
 
-print("Hello there!")
+print(hello)
 
 name = input("enter your name: ")
 print("Hello " + name + ". Nice to meet you.")
@@ -32,4 +33,8 @@ def read_write(field):
     data = input("enter your " + field + ": ")
     print("Your " + field + " is: " + data)
 
+
+read_write("name")
 read_write("age")
+read_write("phone")
+read_write("education")
