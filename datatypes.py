@@ -2,7 +2,7 @@
 # print is a function, that writes given data to output device
 
 age = 32;
-PI = 3.14;
+PI = 3.14; #CONST Convention, Name in upper case.
 hello = "Hello there!";
 
 print(hello)
