@@ -105,8 +105,10 @@ print("Can drive legally :", res)
 
 # or
 
-# not
+def can_go(signal):
+    return signal == "green" or signal == "yellow"
 
+# not
 def is_even(num):
     return num % 2 == 0
 
