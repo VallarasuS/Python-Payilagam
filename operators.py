@@ -113,11 +113,11 @@ def is_even(num):
 def is_odd(num):
     return not is_even(num)
 
-res = is_odd(17);
+res = is_odd(17)
 print("Is Odd :", res)
 
 def is_warm(temp):
     return not is_cold(temp) and not is_hot(temp)
 
-res = is_warm(28);
+res = is_warm(28)
 print("Is Warm :", res)
