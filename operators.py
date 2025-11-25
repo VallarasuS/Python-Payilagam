@@ -88,16 +88,36 @@ print("Is cold :", res)
 
 #gteq
 def is_hot(temp):
-    return temp >= 33
+    return temp >= 30
 
 res = is_hot(45)
 print("Is hot :", res)
-
 
 # Logical Operators
 
 # and
 
+def can_drive_legally(age, licensed):
+    return age > 18 and licensed == True
+
+res = can_drive_legally(16, False)
+print("Can drive legally :", res)
+
 # or
 
 # not
+
+def is_even(num):
+    return num % 2 == 0
+
+def is_odd(num):
+    return not is_even(num)
+
+res = is_odd(17);
+print("Is Odd :", res)
+
+def is_warm(temp):
+    return not is_cold(temp) and not is_hot(temp)
+
+res = is_warm(28);
+print("Is Warm :", res)
