@@ -16,9 +16,20 @@
 
 - Day 005
     - intro functions
-    - operators
+    - Arithmetic Operators
 
 - Day 006
     - Arithmetic operators
     - Logical operators
     - Comparison operators
+
+- Day 007
+    - if elif else
+    - while
+
+
+## TODO
+
+- Dev.to
+- Github
+- LinkedIn
