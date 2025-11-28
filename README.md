@@ -25,6 +25,11 @@
 
 - Day 007
     - if elif else
+
+- Day 008
+    - if elif else
+
+- Day 009
     - while
 
 
