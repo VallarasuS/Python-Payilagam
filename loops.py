@@ -1,16 +1,60 @@
-seconds = 1
+import time
+import os
 
-while seconds <= 60:
-    print(seconds)
-    seconds = seconds + 1
+# Loops
 
-while True:
-    print(seconds)
-    seconds = seconds + 1
+## while
 
-    if seconds > 60:
-        break
+# progress = 0
+
+# while(True):
+#     os.system("clear")
+#     while(progress <= 20):
+#         print("=", end="", flush=True)
+#         progress += 1
+#         time.sleep(0.2)
+#     progress = 0;
+
+## for in range
+
+frames = [
+
+"((((((((((((()))))))))))))",
+"((((((((((((  ))))))))))))",
+"(((((((((((    )))))))))))",
+"((((((((((      ))))))))))",
+"(((((((((        )))))))))",
+"((((((((          ))))))))",
+"(((((((            )))))))",
+"((((((              ))))))",
+"(((((                )))))",
+"((((                  ))))",
+"(((                    )))",
+"((                      ))",
+"(                        )",
+"((                      ))",
+"(((                    )))",
+"((((                  ))))",
+"(((((                )))))",
+"((((((              ))))))",
+"(((((((            )))))))",
+"((((((((          ))))))))",
+"(((((((((        )))))))))",
+"((((((((((      ))))))))))",
+"(((((((((((    )))))))))))",
+"((((((((((((  ))))))))))))",
+"((((((((((((()))))))))))))",
+]
 
 
-def print_update(number):
-    pass
+frame = 0
+while(True):
+
+    os.system("clear")
+    
+    f = frames[ frame % len(frames)]
+    print(f)
+    
+    frame += 1
+    time.sleep(0.200)
+    
