@@ -4,6 +4,8 @@ while seconds <= 60:
     print(seconds)
     seconds = seconds + 1
 
+# ----------------------
+
 while True:
     print(seconds)
     seconds = seconds + 1
@@ -12,5 +14,23 @@ while True:
         break
 
 
-def print_update(number):
-    pass
+# -----------------------------------------
+# print given a number n, output n, n times
+# -----------------------------------------
+# | one | two | three |
+# |-----|-----|-------|
+# | 3   | 5   | 6     |
+# | 3   | 5   | 6     |
+# | 3   | 5   | 6     |
+# |     | 5   | 6     |
+# |     | 5   | 6     |
+# |     |     | 6     |
+
+
+number = input("enter number: ")
+
+count = 1
+
+while count <= number:
+    print(number)
+    count = count + 1
