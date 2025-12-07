@@ -7,13 +7,13 @@ import os
 
 # progress = 0
 
-# while(True):
-#     os.system("clear")
-#     while(progress <= 20):
-#         print("=", end="", flush=True)
+# while True:
+#     while progress <= 20:
+#         out = ("=" * progress).ljust(20)
+#         print(out, end="\r", flush=True)
 #         progress += 1
 #         time.sleep(0.2)
-#     progress = 0;
+#     progress = 0
 
 ## for in range
 
@@ -42,7 +42,6 @@ frames = [
     "((((((((((      ))))))))))",
     "(((((((((((    )))))))))))",
     "((((((((((((  ))))))))))))",
-    "((((((((((((()))))))))))))",
 ]
 
 
