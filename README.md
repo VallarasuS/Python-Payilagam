@@ -20,7 +20,7 @@
 | Day 016 | 05/DEC/25 | [list](lists.py)                          |                      |
 | Day 017 | 06/DEC/25 | [list](lists.py)                          | [progress](loops.py) |
 | Day 018 | 09/DEC/25 | revision                                  |                      |
-| Day 019 | 10/DEC/25 | [Set Intro](sets.py)                      |                      |
+| Day 019 | 10/DEC/25 | [set intro](sets.py)                      |                      |
 
 
 
