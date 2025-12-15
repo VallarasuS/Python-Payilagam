@@ -40,3 +40,15 @@
 1. Why Py
 2. Career Change / Gap
 3. Strength, Weakness
+
+## Exercises
+
+
+- (15/DEC/2025) List
+    - Input: [56, 54, 100, 35, 83, 81, 100, 66, 93, 81, 79, 67, 100, 50, 74, 59, 100, 61, 37, 60]
+    - Given math scores, find how many scored centum: 100
+    - Given scores, grade each score: A > 90, B > 80, C > 60, others D
+    - Given scores, count students for each grade
+    - Given numbers, reverse numbers [1, 2, 3] -> [3, 2, 1]
+    - Given numbers, rotate them in place N times [1, 2, 3, 4, 5] -> [4, 5, 1, 2, 3]
+    - Given numbers, double them in place [1, 2, 3, 4, 5] -> [2, 4, 6, 8, 10]
