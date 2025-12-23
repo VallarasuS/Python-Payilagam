@@ -25,7 +25,8 @@
 | Day 021 | 12/DEC/25 | problem solving                      |                         |
 | Day 022 | 13/DEC/25 | problem solving                      |                         |
 | Day 023 | 13/DEC/25 | Revision                             | [revision](revision.py) |
-
+|         | 22/DEC/25 | dict, lambda                         |                         |
+|         | 23/DEC/25 | Tuple, func default parameter        |                         |
 
 
 
