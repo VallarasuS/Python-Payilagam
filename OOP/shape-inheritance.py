@@ -6,6 +6,12 @@ class Shape:
     def area(self):
         print("Not implemented")
 
+    def __str__(self):
+        return "Shape named :" + self.name
+
+    def __repr__(self):
+        return self.name
+
 
 class Rectangle(Shape):
 
@@ -35,3 +41,11 @@ rect.area()
 
 square = Square("Square", 10, 10)
 square.area()
+
+
+list = [square, rect, shape]
+
+print(square)
+print(rect)
+print(shape)
+print(list)
