@@ -13,3 +13,6 @@ print(type(z))
 name = "John"
 print(name)
 print(type(name))
+
+name = 1
+print(type(name))
