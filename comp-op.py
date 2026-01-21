@@ -36,5 +36,9 @@ def can_deliver(status):
     return status != "Closed"
 
 
+def can_deliver(status):
+    return status == "Open"
+
+
 deliver = can_deliver("Open")
 print("deliver : ", deliver)
