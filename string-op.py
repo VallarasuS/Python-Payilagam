@@ -37,7 +37,7 @@ print(words)
 
 user_input = "   John   "
 print(user_input)
-print(user_input.strip())
+print("   John   ".strip())
 # print(user_input.lstrip())
 # print(user_input.rstrip())
 
@@ -52,5 +52,10 @@ template = "Hello {0}, Greetings for the day! Your order for {1} is completed"
 email = template.format("John", "Laptop")
 print(email)
 
-email = template.format("Dave", "Keyboard")
-print(email)
+greet = "Hello {0}! Greetings".format("Dave")
+print(greet)
+
+
+words = "Learning python is fun"
+pos = "Learning python is fun".count("n")
+print(pos)
