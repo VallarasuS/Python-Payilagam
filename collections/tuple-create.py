@@ -63,3 +63,25 @@ print(t_numbers[2 : len(t_numbers) : 1])
 
 data = "John", "Chennai", 40, 60, 50
 print(type(data))
+
+
+def add(x, y):
+    total = x + y
+    difference = x - y
+    return total, difference
+
+
+a, b = add(10, 20)
+print(a, b)
+
+
+def total(*args):
+    # sum = 0
+    # for i in args:
+    #     sum = sum + i
+    # return sum
+    return sum(args)
+
+
+tot = total(10, 20, 30, 40, 50)
+print(tot)
