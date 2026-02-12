@@ -18,7 +18,7 @@ say_hello("John")
 print("End of program")
 
 
-def add(x, y):
+def add(x, y=10):
     print(x + y)
 
 
