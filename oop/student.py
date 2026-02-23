@@ -1,7 +1,7 @@
 class Student:
 
     # dunder methods
-    # constructor
+    # constructor / Initializer
     def __init__(self, name, standard):
         self.name = name
         self.standard = standard
