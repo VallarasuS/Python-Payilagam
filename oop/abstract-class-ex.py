@@ -3,8 +3,9 @@ from abc import ABC, abstractmethod
 
 class Storage(ABC):
 
+    @abstractmethod
     def delete(self):
-        print("delete")
+        pass
 
     @abstractmethod
     def save(self, message):
@@ -12,6 +13,9 @@ class Storage(ABC):
 
 
 class USBStorage(Storage):
+
+    def delete(self):
+        print("USB:: delete")
 
     def write(self, message):
         print(message)
