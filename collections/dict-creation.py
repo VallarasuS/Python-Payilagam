@@ -10,7 +10,14 @@ four = num_day.get("4")
 print(four)
 
 fifth = num_day.get("5")
+fifth = num_day["3"]
 print(fifth)
+
+nums = [1, 2, 3, 4]
+nums[0] = 10
+num_day["1"] = "Sunday"
+value = num_day["1"]
+
 
 day = input("Enter day of the week")
 print(num_day.get(day))
