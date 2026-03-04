@@ -6,17 +6,6 @@ root = Tk()
 root.title("Hello")
 root.geometry("800x500")
 
-# Widgets
-# Label, Entry, Text, Button
-
-# size, geometry (width, height), x, y,  padding x, y, font, font size,
-
-# label = Label(root, text="Hello World")
-# label["text"] = "Hello!"
-# label.config(text="Hello Again")
-# # label.configure()
-# label.pack()
-
 # x = 10  # INT
 stringVariable = StringVar()
 

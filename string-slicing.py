@@ -12,3 +12,5 @@ print(slice)
 
 slice = message[0 : len(message) : 2]
 print(slice)
+
+# linter, formatter
