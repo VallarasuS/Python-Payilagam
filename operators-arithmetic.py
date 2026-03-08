@@ -1,6 +1,10 @@
 x = 10
 y = 3
 
+# Comment
+# Arithmetic Operators
+#  + - / // * % **
+
 total = x + y  # 10 + 3 -> 13
 print("Total: ", total)
 
@@ -23,3 +27,6 @@ print("Exponent:", exponent)
 
 remainder = x % 3  # 10 % 3 -> 1
 print("Remainder:", remainder)
+
+total = 10 + 2 + 10
+average = total / 3
