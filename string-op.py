@@ -66,7 +66,7 @@ print(new_data)
 # strip, lstrip, rstrip
 #####################################
 
-email = "john@gmail.com"
+email = "  john@gmail.com  "
 email = email.strip()
 print(email)
 
@@ -104,3 +104,9 @@ name = "john"
 
 output = f"Hi {name}, your order {status} for {price} rupees"
 print(output)
+
+
+message = "Hello world"
+
+for i in message:
+    print(i)
