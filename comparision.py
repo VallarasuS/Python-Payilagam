@@ -1,7 +1,7 @@
-# age = input("enter your age")
-# age = int(age)
-# is_minor = age < 18
-# print("Is Minor?", is_minor)
+age = input("enter your age")
+age = int(age)
+is_minor = age < 18
+print("Is Minor?", is_minor)
 
 age = 18
 is_major = age >= 18
@@ -23,3 +23,9 @@ current_signal = "green"
 should_i_stop = current_signal != go_signal
 
 print("Stop?", should_i_stop)
+
+
+age = input("enter your age")
+age = int(age)
+is_minor = age < 18
+print("Is Minor?", is_minor)
