@@ -35,17 +35,19 @@ print(x)
 # error can not modify
 # numbers[2] = 20
 
-person = ("John", 30,  "Chennai")
+person = ("John", "John", 30,  "Chennai")
 print(person)
 print(type(person))
 
 # un packing
-name, age, city = person
+name,lname, age, city = person
 print(name)
 print(age)
 print(city)
 
-# packing
+packing
 person = (name, age, city)
 print(person)
 
+print(person.index("John"))
+print(person.count("John"))
