@@ -29,3 +29,24 @@ age = input("enter your age")
 age = int(age)
 is_minor = age < 18
 print("Is Minor?", is_minor)
+
+def has_voter_id():
+    return True
+
+def has_aadhaar():
+    return True
+
+
+# Short circuit
+
+age = 12
+ca_vote = age >= 18 and (has_vote_id() or has_aadhaar())
+
+# ArithmeticError
+# / , //, %
+
+# Comparison
+# ==, =  
+
+# Logical Operator
+# - Short Circuit
