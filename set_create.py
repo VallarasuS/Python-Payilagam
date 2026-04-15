@@ -3,15 +3,13 @@
 numbers = {32, }
 
 # no duplicates
-
 enrollment = ["John", "James", "Dave", "Rob", "John"]
 
 without_duplicate = set(enrollment)
 print(without_duplicate)
 
 # dictionary
-dictionary = { "age": 32 }
-
+dictionary = { "age": 32, "name": "John" }
 
 team_soccer = { "John", "Rob", "Dave" }
 team_kabadi = { "John", "Jose", "Adam" }
