@@ -20,6 +20,9 @@ while True:
     option = input("Select an option form above: ")
     option = option.lower()
 
+    if option == "exit":
+        break
+
     num1 = int(input("Enter number one"))
     num2 = int(input("Enter number two"))
     result = None
@@ -33,7 +36,5 @@ while True:
         pass
     elif option == "sub":
         pass
-    elif option == "exit":
-        break
     else:
         print("Invalid Input, try again")
