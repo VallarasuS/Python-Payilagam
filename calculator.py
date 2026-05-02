@@ -1,40 +1,42 @@
-# calculator
-# print all options
-#   add
-#   mul
-#   div
-#   sub
-#   exit
+def get_user_option():
+    print("WELCOME CALCULATOR")
+    print("------------------")
+    print(" add \n sub \n divi \n muli \n exit")
+    option = input("enter your above option:")
 
-# get options from user
-# get numbers from user
-# perform operation
-# print results
-# repeat
+    return option.lower()
 
-while True:
 
-    print("Calculator")
-    print("----------")
-    print(" add \n mul \n div \n sub \n exit")
-    option = input("Select an option form above: ")
-    option = option.lower()
+def calculate(option, num1, num2):
 
-    if option == "exit":
-        break
-
-    num1 = int(input("Enter number one"))
-    num2 = int(input("Enter number two"))
     result = None
 
     if option == "add":
         result = num1 + num2
-        print(result)
-    elif option == "mul":
-        pass
-    elif option == "div":
-        pass
     elif option == "sub":
-        pass
-    else:
-        print("Invalid Input, try again")
+        result = num1 - num2
+    elif option == "divi":
+        result = num1 * num2
+    elif option == "muli":
+        result = num1 / num2
+
+    return result
+
+
+def run_calculator():
+
+    while True:
+
+        option = get_user_option()
+
+        if option == "exit":
+            break
+
+        num1 = int(input("enter a number one:"))
+        num2 = int(input("enter a number two:"))
+
+        result = calculate(option, num1, num2)
+        print(result)
+
+
+run_calculator()
