@@ -8,8 +8,7 @@ def mul(x, y):
     return x * y
 
 
-print(__name__)
-
 if __name__ == "__main__":
+    print(__name__)
     sum = add(10, 20)
     print(sum)
