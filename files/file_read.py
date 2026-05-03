@@ -20,6 +20,6 @@
 
 
 file = open(r"C:\Users\Valla\Desktop\temp\file_py.txt", "r")
-content = file.readlines()
+content = file.write("Hello")
 print(content)
 file.close()
