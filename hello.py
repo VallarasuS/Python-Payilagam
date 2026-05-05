@@ -46,3 +46,10 @@ x = int(x)  # str -> int
 y = int(y)  # str -> int
 z = x + y
 print(z)
+
+
+def greet():
+    print("Hello World")
+
+def subtract(a, b):
+    return a - b

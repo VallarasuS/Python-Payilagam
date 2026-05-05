@@ -11,9 +11,15 @@
 # window.mainloop()
 
 from maths import add, power
+from hello import greet, subtract
 
 sum = add(10, 20)
 print(sum)
 
-exp = power(10, 3)
+diff = subtract(sum, 1)
+print(diff)
+
+exp = mul(sum, 3)
 print(exp)
+
+greet()
