@@ -12,6 +12,7 @@
 
 from maths import add, power
 from hello import greet, subtract
+from OOP.bank_account import BankAccount
 
 sum = add(10, 20)
 print(sum)
@@ -23,3 +24,6 @@ exp = mul(sum, 3)
 print(exp)
 
 greet()
+
+account = BankAccount("Rob", "ACB3322", 5000)
+account.deposit(100)
