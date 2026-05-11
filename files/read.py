@@ -37,7 +37,10 @@
 
 # file.close()
 
-file = open(r"C:\Users\Valla\Desktop\marks.csv", "r")
-data = file.readlines()
-print(data)
-file.close()
+try:
+    file = open(r"C:\Users\Valla\Desktop\marks.csv", "r")
+    data = file.readlines()
+    print(data)
+    file.close()
+except FileNotFoundError:
+    print("There is no file in the given path")
