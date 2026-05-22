@@ -1,13 +1,24 @@
+# Student
+    # Name
+    # id
+    # marks
+    # department
+
+
 class Student:
     
-    def __init__(self, name, id, marks):
-        pass
+    def __init__(self, name, id, mark, department):
+        self.name = name
+        self.id = id
+        self.mark = mark
+        self.department = department
 
-        print(name)
-        print(id)
-        print(marks)
-
-sanjay = Student("sanjay", "123", [10, 20, 30, 40, 50])
-parithi = Student("parithi", "234", [20, 30, 40, 50, 60])
+    def display(self):
+        print(self.name, self.id, self.mark, self.department)
 
 
+sanjay = Student("Sanjay", "ID100", 500, "BCA")
+sanjay.display()
+
+john = Student("John", "ID213", 234, "BSC")
+john.display()
